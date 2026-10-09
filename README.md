@@ -1,6 +1,6 @@
 # mcp-server-teste
 
-<!-- mcp-name: io.github.<seu-usuario>/mcp-server-teste -->
+<!-- mcp-name: io.github.joaoduram/mcp-server-teste -->
 
 MCP server básico de teste, em Python, com 3 ferramentas:
 
@@ -13,7 +13,7 @@ MCP server básico de teste, em Python, com 3 ferramentas:
 ## Uso direto do Git (sem publicar no PyPI)
 
 ```bash
-uvx --from git+https://github.com/<usuario>/mcp-server-teste mcp-server-teste
+uvx --from git+https://github.com/joaoduram/mcp-server-teste mcp-server-teste
 ```
 
 ## Configuração no Claude Desktop / Claude Code
@@ -23,7 +23,7 @@ uvx --from git+https://github.com/<usuario>/mcp-server-teste mcp-server-teste
   "mcpServers": {
     "teste": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/<usuario>/mcp-server-teste", "mcp-server-teste"]
+      "args": ["--from", "git+https://github.com/joaoduram/mcp-server-teste", "mcp-server-teste"]
     }
   }
 }
@@ -32,7 +32,7 @@ uvx --from git+https://github.com/<usuario>/mcp-server-teste mcp-server-teste
 No Claude Code também dá pra adicionar via CLI:
 
 ```bash
-claude mcp add teste -- uvx --from git+https://github.com/<usuario>/mcp-server-teste mcp-server-teste
+claude mcp add teste -- uvx --from git+https://github.com/joaoduram/mcp-server-teste mcp-server-teste
 ```
 
 ## Desenvolvimento local
