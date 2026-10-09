@@ -1,5 +1,7 @@
 # mcp-server-teste
 
+<!-- mcp-name: io.github.<seu-usuario>/mcp-server-teste -->
+
 MCP server básico de teste, em Python, com 3 ferramentas:
 
 | Tool     | O que faz                          |
